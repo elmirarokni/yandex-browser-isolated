@@ -10,7 +10,7 @@ cd yandex-browser-isolated
 ### First run
 With forwarding display settings
 ``` shell 
-docker run --name=yandex-browser-isolated -it --net=host -e DISPLAY -v /tmp/.X11-unix korolevoleg/yandex-browser-isolated "`xauth list | head -n 1 | sed -r "s/oleg\/unix:/:0/g"`"
+docker run --name=yandex-browser-isolated -it --net=host -e DISPLAY -v /tmp/.X11-unix korolevoleg/yandex-browser-isolated "`xauth list | head -n 1 | sed -r "s/\w+\/unix:/:0/g"`"
 ```
 
 ### Start
