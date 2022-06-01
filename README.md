@@ -18,3 +18,7 @@ After browser close
 ```shell
 docker start yandex-browser-isolated
 ```
+
+### Todo
+- [X] forwarding xdisplay
+- [ ] forwarding sounds
