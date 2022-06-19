@@ -1,0 +1,6 @@
+{
+    "name": "yandex browser isolated",
+    "description": "Isolated yandex browser in docker image",
+    "repository": "https://github.com/elmirarokni/yandex-browser-isolated",
+    "stack": "container"
+  }
