@@ -1,3 +1,4 @@
+[![استقرار](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 # yandex-browser-isolated
 Isolated yandex browser in docker image
 ### Install
